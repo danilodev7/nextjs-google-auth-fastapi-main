@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button"
 export default function Component() {
 
   const googleRedirect = () => {
-    window.location.href = `https://nextjs-flow.vercel.app/api/google/login`;
+    window.location.href = `https://nextjs-google-auth-fastapi-main.vercel.app/api/google/login`;
   };
 
   return (

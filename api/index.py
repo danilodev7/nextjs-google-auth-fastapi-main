@@ -19,14 +19,14 @@ app = FastAPI()
 # CLIENT_SECRETS_FILE = "client_secret.json"
 CLIENT_SECRETS_FILE = os.path.join(dir_path, "client_secret.json")
 SCOPES = ['openid', 'https://www.googleapis.com/auth/userinfo.email', 'https://www.googleapis.com/auth/userinfo.profile']
-REDIRECT_URI = 'http://localhost:3000/api/google/auth'
+REDIRECT_URI = 'https://nextjs-google-auth-fastapi-main.vercel.app/api/google/auth'
 
 FRONTEND_CLIENT_SUCCESS_URI = 'http://localhost:3000/user'
 FRONTEND_CLIENT_FAILURE_URI = 'http://localhost:3000'
-# REDIRECT_URI = 'https://nextjs-flow.vercel.app/api/google/auth'
+# REDIRECT_URI = 'https://nextjs-google-auth-fastapi-main.vercel.app/api/google/auth'
 
-# FRONTEND_CLIENT_SUCCESS_URI = 'https://nextjs-flow.vercel.app/user'
-# FRONTEND_CLIENT_FAILURE_URI = 'https://nextjs-flow.vercel.app'
+# FRONTEND_CLIENT_SUCCESS_URI = 'https://nextjs-google-auth-fastapi-main.vercel.app/user'
+# FRONTEND_CLIENT_FAILURE_URI = 'https://nextjs-google-auth-fastapi-main.vercel.app/'
 
 # SessionMiddleware must be installed to access request.session
 app.add_middleware(SessionMiddleware, secret_key="!secret")
