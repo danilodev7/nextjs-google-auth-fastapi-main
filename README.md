@@ -1,45 +1,44 @@
-## FastAPI + NextJS14 + GoogleAuth Starter Kit.
+## FastAPI + NextJS14 + GoogleAuth 🚀
 
-Sign up at Google Console, configure oauth and get your credentials json file.
+Inscreva-se no Google Console, configure o OAuth e obtenha seu arquivo JSON de credenciais.
 
-In Google redirect uri add: http://localhost:3000/api/google/auth and your vercel domain url as well.
+Adicione na URI de redirecionamento do Google: http://localhost:3000/api/google/auth e também a URL do seu domínio no Vercel.
 
-Now rename the file to client.json and place in /api directory. Now you can remove the placeholder-client-secret.json file.
+Renomeie o arquivo para `client.json` e coloque-o no diretório `/api`. Agora você pode remover o arquivo `placeholder-client-secret.json`.
 
-### Run the Project Locally
+### Executar o Projeto Localmente 🏃‍♂️
 
-First, run the development server:
+Primeiro, execute o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
-Note: -> If you face any issue while running the example feel free to create an issue or email/DM me.
+Nota: -> Se você enfrentar qualquer problema ao executar o exemplo, sinta-se à vontade para criar uma issue ou enviar um email/DM para mim.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Você pode começar a editar a página modificando `app/page.tsx`. A página é atualizada automaticamente conforme você edita o arquivo.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Este projeto usa [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) para otimizar e carregar automaticamente a Inter, uma fonte personalizada do Google.
 
-## Learn More
+## Saiba Mais 📚
 
-To learn more about Next.js, take a look at the following resources:
+Para saber mais sobre Next.js, dê uma olhada nos seguintes recursos:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Documentação do Next.js](https://nextjs.org/docs) - aprenda sobre os recursos e API do Next.js.
+- [Aprenda Next.js](https://nextjs.org/learn) - um tutorial interativo de Next.js.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Você pode conferir o [repositório do Next.js no GitHub](https://github.com/vercel/next.js/) - seu feedback e contribuições são bem-vindos!
 
-## Deploy on Vercel
+## Deploy no Vercel 🚀
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+A maneira mais fácil de fazer o deploy do seu app Next.js é usar a [Plataforma Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) dos criadores do Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
+Confira nossa [documentação de deployment do Next.js](https://nextjs.org/docs/deployment) para mais detalhes.
